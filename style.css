@@ -1,0 +1,83 @@
+header {
+  height: 90px;
+  margin-top: 30px;
+}
+
+header div {
+  width: 899px;
+  margin: 0 auto;
+}
+
+.half {
+  height: 45px;
+  width: 899px;
+  float: left;
+}
+
+.logo {
+  height: 45px;
+  width: 180px;
+  float: left;
+}
+
+.logo img{
+  float: left;
+}
+
+.logo p {
+  font-size: 9px;
+  font-family: arial narrow;
+  margin-left: 14px;
+  float: left;
+  margin-left: 7px;
+}
+
+.logo h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: brush script mt, cursive;
+  margin-left: 10px;
+  margin-right: 3px;
+  float: left;
+}
+
+.top-fill {
+  height: 45px;
+  width: 483px;
+  float: left;
+}
+
+.link-row {
+  height: 45px;
+  width: 236px;
+  float: left;
+}
+
+.fill-bar {
+  width: 899px;
+  height: 37px;
+}
+
+header ul {
+  padding-top: 10px;
+}
+
+header li {
+  margin: .5px;
+  display: inline-block;
+}
+
+header li:nth-child(7){
+  margin-left:10px;
+}
+
+.gray-bar{
+  width: 899px;
+  height: 8px;
+  background: #ccc;
+}
+
+.top-banner {
+  height: 250px;
+  width: 796px;
+}
