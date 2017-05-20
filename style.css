@@ -133,3 +133,38 @@ header li:nth-child(7){
   margin-top: 45px;
   margin-bottom: 45px;
 }
+
+p {
+  text-indent: 20px;
+  margin-bottom: 45px;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: palatino, serif;
+}
+
+.ingredients {
+  width: 859px;
+  height: 273px;
+  padding-left: 40px;
+  padding-top: 32px;
+  float: left;
+  background-image: url("images/list-bg.png");
+}
+
+fieldset ul {
+  width: 380px;
+  float: left;
+}
+
+fieldset li {
+  display: block;
+  font-family: comic sans ms, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+footer{
+  width: 901px;
+  float: left;
+}
