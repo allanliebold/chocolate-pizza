@@ -147,6 +147,7 @@ p {
   height: 273px;
   padding-left: 40px;
   padding-top: 32px;
+  margin-bottom: 35px;
   float: left;
   background-image: url("images/list-bg.png");
 }
@@ -164,7 +165,92 @@ fieldset li {
   margin-left: 15px;
 }
 
+.linethrough {
+  text-decoration: line-through;
+}
+
 footer{
+  height: 700px;
+}
+
+footer div {
   width: 901px;
+  margin: 0 auto;
+}
+
+footer img {
   float: left;
+  margin-right: 20px;
+}
+
+footer h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer span {
+  display: block;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: arial, sans-serif;
+}
+
+.footer-info {
+  margin-top: 20px;
+  height: 80px;
+  width: 670px;
+  float: left;
+}
+
+.share {
+  width: 182px;
+  height: 80px;
+  margin-top: 20px;
+  padding-left: 43px;
+  float:left;
+}
+
+button {
+  color: white;
+  border: none;
+  background-color: #BC7059;
+  font-size:18px;
+  font-family: arial narrow;
+  height: 55px;
+  width: 185px;
+  float: left;
+}
+
+.bottom-fill {
+  width: 901px;
+  height: 80px;
+  float: left;
+}
+
+.logo-bar {
+  width: 420px;
+  color: #eee;
+  display: inline-block;
+  float: left;
+}
+
+.small-logo {
+  margin-left: 9px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+.copyright {
+  width: 901px;
+  height: 100px;
+  margin-top: 30px;
+  float:left;
+  text-align: center;
+}
+
+.copyright p {
+  color: #aaa;
 }

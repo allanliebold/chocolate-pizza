@@ -94,12 +94,12 @@
           <label for="milk">1 1/2 cups heavy cream</label>
         </li>
         <li>
-          <input type="checkbox" name="sugar" value="sugar">
-          <label for="sugar">1/3 granulated sugar</label>
+          <input type="checkbox" name="sugar" value="sugar" checked="checked">
+          <label for="sugar" class="linethrough">1/3 granulated sugar</label>
         </li>
         <li>
-          <input type="checkbox" name="yolks" value="yolks">
-          <label for="yolks">2 egg yolks</label>
+          <input type="checkbox" name="yolks" value="yolks" checked="checked">
+          <label for="yolks" class="linethrough">2 egg yolks</label>
         <li>
           <input type="checkbox" name="lemon" value="lemon">
           <label for="lemon">1 lemon, juiced</label>
@@ -120,13 +120,36 @@
 </main>
 
 <footer>
-  <!-- gray divider bar -->
-  <img src="images/van-pic.png">
-  Vanessa Stevenson
+  <div>
+    <div class="gray-bar"></div>
 
-  <button>SHARE RECIPE</button>
+    <div class="footer-info">
 
-  <img src="images/small-logo.png">
+      <img src="images/van-pic.png">
+      <h2>Vanessa Stevenson</h2>
+      <span>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+    </div>
+
+    <div class="share">
+      <button>SHARE RECIPE</button>
+    </div>
+
+    <div class="bottom-fill"></div>
+    <div class="logo-bar">
+    ____________________________________________________
+    </div>
+
+    <img src="images/small-logo.png" class="small-logo">
+
+    <div class="logo-bar">
+    ____________________________________________________
+    </div>
+
+    <div class="copyright">
+      <p>Delicious &copy 2013  - All Rights Reserved.<br>
+        Proudly published with Ghost.</p>
+    </div>
+  </div>
 
 </footer>
 </body>
