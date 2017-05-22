@@ -71,19 +71,23 @@ header ul {
 }
 
 header li {
-  margin: .5px;
+  margin: .5px 0px;
   display: inline-block;
 }
 
+header li:nth-child(2){
+  margin-right: 4px;
+}
+
 header li:nth-child(7){
-  margin-left:10px;
+  margin-left:13px;
 }
 
 .gray-bar{
   width: 899px;
   height: 13px;
   float: left;
-  background: #ccc;
+  background-image: url("images/border-img.png");
 }
 
 .banner-top {
@@ -104,9 +108,10 @@ header li:nth-child(7){
 }
 
 .banner-title span {
-  font-family: helvetica;
-  font-size: 12px;
-  color: #888;
+  font-family: calibri, sans-serif;
+  font-weight: condensed;
+  font-size: 15px;
+  color: #aaa;
 }
 
 .banner-fill {
@@ -116,37 +121,36 @@ header li:nth-child(7){
 }
 
 .banner-print {
+  float: left;
   height: 15px;
   width: 99px;
-  float: left;
-  font-family: helvetica;
-  text-align: right;
   padding-top: 40px;
-  }
-
-.banner-print span{
-  font-size: 12px;
-  color: #888;
+  font-family: calibri, sans-serif;
+  font-weight: condensed;
+  font-size: 15px;
+  text-align: right;
+  color: #aaa;
 }
 
 .hero {
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 p {
   text-indent: 20px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   line-height: 150%;
-  font-size: 20px;
-  font-family: palatino, serif;
+  font-size: 18px;
+  color: #555;
+  font-family: Georgia, serif;
 }
 
 .ingredients {
   width: 859px;
   height: 273px;
   padding-left: 40px;
-  padding-top: 32px;
+  padding-top: 28px;
   margin-bottom: 35px;
   float: left;
   background-image: url("images/list-bg.png");
@@ -159,9 +163,10 @@ fieldset ul {
 
 fieldset li {
   display: block;
-  font-family: comic sans ms, sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+  color: #777;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  margin-top: 8px;
   margin-left: 15px;
 }
 
@@ -184,8 +189,10 @@ footer img {
 }
 
 footer h2 {
-  font-size: 20px;
+  font-family: Baskerville;
+  font-size: 24px;
   font-weight: bold;
+  color: #555;
   margin-bottom: 10px;
 }
 
@@ -193,7 +200,8 @@ footer span {
   display: block;
   font-size: 18px;
   line-height: 150%;
-  font-family: arial, sans-serif;
+  color: #444;
+  font-family: Georgia, serif;
 }
 
 .footer-info {
